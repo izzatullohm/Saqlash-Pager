@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".AddFragment">
+
+    <EditText
+        android:id="@+id/etName"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Ism" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:hint="Yosh" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSave"
+        android:layout_width="120dp"
+        app:cornerRadius="10dp"
+        android:layout_marginLeft="220dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:text="Saqlash" />
+
+</LinearLayout>
